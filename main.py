@@ -11,7 +11,7 @@ load_dotenv()
 followed_users = 0
 
 def send_email():
-    global followed_users  # Declare followed_users as global
+    global followed_users
     followed_users += 1
     smtp_server = "smtp.gmail.com"
     port = 587
